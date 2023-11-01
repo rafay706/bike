@@ -144,70 +144,22 @@ button:hover {
   padding-top: 40px;
 }
 
+.about-height {
+  height: 100vh;
+}
+
+.about-tool {
+  margin: 10px 0;
+}
 .about-tool li {
   padding: 8px 0;
   color: #000000;
   font-weight: 600;
 }
 
-/* Form Section  */
-
-.form {
-  text-align: center;
-}
-
-.form-box {
-  margin: 35px 0;
-}
-
-.form-row h2 {
-  font-size: 35px;
-}
-
-.form-input {
-  width: 45%;
-  padding: 16px 0;
-  padding-left: 20px;
-  margin-bottom: 25px;
-  border: 1px solid #b0b0b0;
-  background-color: transparent;
-  outline: none;
-}
-
-.form-message {
-  width: 45%;
-  padding: 55px 0;
-  padding-left: 20px;
-  margin-bottom: 25px;
-  border: 1px solid #b0b0b0;
-  background-color: transparent;
-  outline: none;
-}
-
-.btn-send {
-  color: white;
-  background-color: #ff4646;
-  border: 1px solid #ff4646;
-  padding: 16px 60px;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 700;
-}
-
-.btn-send:hover {
-  color: #ff4646;
-  background-color: transparent;
-  border: 1px solid #ff4646;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
 footer {
-  margin-top: 25px;
+  padding: 20px;
   background-color: #14213d;
-  color: #fff;
-  padding: 25px;
+  color: white;
   text-align: center;
-  display: grid;
-  grid-template-columns: 40;
 }
