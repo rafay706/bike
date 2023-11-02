@@ -92,6 +92,9 @@ main input {
 .about-tool p {
   line-height: 1.7;
 }
+.about-tool span {
+  font-weight: 600;
+}
 
 .about-tool h2,
 h3 {
@@ -127,10 +130,11 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.3s linear;
 }
 
 button:hover {
-  background-color: #394d7a;
+  background-color: #fca311;
 }
 
 #result {
@@ -144,12 +148,9 @@ button:hover {
   padding-top: 40px;
 }
 
-.about-height {
-  height: 100vh;
-}
-
 .about-tool {
   margin: 10px 0;
+  padding: 0 20px;
 }
 .about-tool li {
   padding: 8px 0;
@@ -161,5 +162,51 @@ footer {
   padding: 20px;
   background-color: #14213d;
   color: white;
+
   text-align: center;
+}
+
+/* key css */
+
+.key-rows {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.key-numbers h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #fca311;
+}
+
+.key-heading h3 {
+  text-align: center;
+}
+
+.key-text p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* why use css */
+
+.why-use-box li span {
+  padding-right: 3px;
+}
+.why-use-box li {
+  font-weight: 400;
+  list-style-type: disc;
+}
+/* faqs-box css */
+
+.faqs-box li span {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.faqs-box li {
+  font-weight: 400;
+  list-style-type: disc;
 }
