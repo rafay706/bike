@@ -2,11 +2,23 @@
   nav ul li a {
     font-size: 16px;
   }
+
+  .key-rows {
+    display: flex;
+  }
 }
 
 @media (max-width: 960px) {
   header {
     grid-template-columns: 25% 75%;
+  }
+
+  .key-rows {
+    display: block;
+  }
+
+  .key-box {
+    margin: 30px 0;
   }
 }
 
